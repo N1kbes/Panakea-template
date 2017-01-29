@@ -1,0 +1,16 @@
+@import
+  'base/_reset.scss';
+
+@import
+  'components/_buttons.scss';
+
+@import
+  'layout/_footer.scss',
+  'layout/_header.scss',
+  'layout/_navigation.scss',
+  'layout/_newsseller.scss',
+  'layout/_social.scss',
+  'layout/_welcome.scss';
+@import
+  'utils/_mixins',
+  'utils/_mixins';
