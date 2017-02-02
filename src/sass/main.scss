@@ -1,4 +1,8 @@
 @import
+  'utils/_mixins.scss',
+  'utils/_variables.scss';
+
+@import
   'base/_base.scss',
   'base/_reset.scss',
   'base/_typography.scss';
@@ -13,7 +17,3 @@
   'layout/_newsseller.scss',
   'layout/_social.scss',
   'layout/_welcome.scss';
-
-@import
-  'utils/_mixins',
-  'utils/_mixins';
