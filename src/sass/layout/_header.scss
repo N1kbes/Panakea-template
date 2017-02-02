@@ -17,7 +17,7 @@ h2{
 
 
 header{
-  min-height: 147px;
+  min-height: 9.1875em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,6 +37,7 @@ header{
   line-height: 1.333;
   margin: 0 1.5em;
   cursor: pointer;
+  transition-duration: 0.05s;
   &:first-child{
     margin-left: 0;
   }
