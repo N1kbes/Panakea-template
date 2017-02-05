@@ -1,0 +1,46 @@
+.homepage{
+  background-image: url('../images/header-bg.jpg');
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-page-group{
+  text-align: center;
+  padding-top: 25em;
+}
+
+.inline-figures{
+  display: flex;
+  margin-top: 6em;
+}
+
+.inline-figures .figure-main{
+  margin: 0 0.5em;
+}
+.inline-figures .figure-main img{
+  border-radius: 50%;
+  border: 0.5em solid $white-color;
+}
+
+.h-group--main span{
+  font-size: 1.875em;
+  font-family: "RobotoSlabLight";
+  color: $white-color;
+  line-height: 3;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+}
+
+.read-more{
+  background-color: $white-color;
+  font-family: "RobotoSlabRegular";
+  color:  #612316;
+  font-weight: 400;
+  margin: 4.8em 0;
+
+  &:hover{
+    background-color: $orange-color;
+    color: $white-color;
+  }
+}
