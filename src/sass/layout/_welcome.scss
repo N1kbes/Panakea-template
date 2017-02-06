@@ -32,15 +32,15 @@
   font-weight: 700;
 }
 
-.read-more{
+.main-page-group .read-more{
   background-color: $white-color;
   font-family: "RobotoSlabRegular";
   color:  #612316;
   font-weight: 400;
   margin: 4.8em 0;
 
-  &:hover{
+&:hover {
     background-color: $orange-color;
     color: $white-color;
-  }
+}
 }

@@ -1,115 +1,102 @@
 @font-face {
     font-family: "ProximaNovaBold";
     src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
-    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
-    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"), url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"), url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-
 @font-face {
     font-family: "ProximaNovaLight";
     src: url("../fonts/ProximaNovaLight/ProximaNova-Light.eot");
-    src: url("../fonts/ProximaNovaLight/ProximaNova-Light.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ProximaNovaLight/ProximaNova-Light.woff") format("woff"),
-    url("../fonts/ProximaNovaLight/ProximaNova-Light.ttf") format("truetype");
+    src: url("../fonts/ProximaNovaLight/ProximaNova-Light.eot?#iefix")format("embedded-opentype"), url("../fonts/ProximaNovaLight/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNovaLight/ProximaNova-Light.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-
 @font-face {
     font-family: "RobotoBold";
     src: url("../fonts/RobotoBold/RobotoBold.eot");
-    src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
-    url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+    src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-
 @font-face {
     font-family: "RobotoLight";
     src: url("../fonts/RobotoLight/RobotoLight.eot");
-    src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
-    url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+    src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-
 @font-face {
     font-family: "RobotoSlabBold";
     src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot");
-    src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoSlabBold/RobotoSlabBold.woff") format("woff"),
-    url("../fonts/RobotoSlabBold/RobotoSlabBold.ttf") format("truetype");
+    src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoSlabBold/RobotoSlabBold.woff") format("woff"), url("../fonts/RobotoSlabBold/RobotoSlabBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-
 @font-face {
     font-family: "RobotoSlabLight";
     src: url("../fonts/RobotoSlabLight/RobotoSlabLight.eot");
-    src: url("../fonts/RobotoSlabLight/RobotoSlabLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoSlabLight/RobotoSlabLight.woff") format("woff"),
-    url("../fonts/RobotoSlabLight/RobotoSlabLight.ttf") format("truetype");
+    src: url("../fonts/RobotoSlabLight/RobotoSlabLight.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoSlabLight/RobotoSlabLight.woff") format("woff"), url("../fonts/RobotoSlabLight/RobotoSlabLight.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-
 @font-face {
     font-family: "RobotoSlabRegular";
     src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot");
-    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format("woff"),
-    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype");
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format("woff"), url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
-
-h1{
-  font-family: "RobotoSlabBold";
-  font-size: 2.25em;
-  color: $dark-color;
-  line-height: 1;
-  margin: 0;
+h1 {
+    font-family: "RobotoSlabBold";
+    font-size: 2.25em;
+    color: $dark-color;
+    line-height: 1;
+    margin: 0;
 }
 
-h2{
-  font-size: 1em;
-  font-family: "RobotoSlabRegular";
-  color: $orange-color;
-  line-height: 2.25;
-  margin: 0;
-  letter-spacing: 0.0785em;
+h2 {
+    font-size: 1em;
+    font-family: "RobotoSlabRegular";
+    color: $orange-color;
+    line-height: 2.25;
+    margin: 0;
+    letter-spacing: 0.0785em;
 }
 
-h3{
-  font-size: 4.5em;
-  font-family: "RobotoSlabLight";
-  color: $white-color;
-  line-height: 0.667;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
-  font-weight: 300;
-  margin: 0;
+h3 {
+    font-size: 4.5em;
+    font-family: "RobotoSlabLight";
+    color: $white-color;
+    line-height: 0.667;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+    margin: 0;
 }
 
-h4{
-  font-size: 1.5em;
-  font-family: "RobotoSlabRegular";
-  color: $white-color;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
-  font-weight: 700;
-  margin: 0;
+h4 {
+    font-size: 1.875em;
+    font-family: "RobotoSlabRegular";
+    color: $white-color;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    margin: 0;
 }
 
+h5 {
+    font-size: 1.5em;
+    font-family: "RobotoSlabRegular";
+    color: $dark-color;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    margin: 0;
+}
 
-span{
-  font-size: 1em;
-  font-family: "RobotoLight";
-  color: $white-color;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
-  font-weight: 300;
+span {
+    font-size: 1em;
+    font-family: "RobotoLight";
+    color: $white-color;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-weight: 300;
 }

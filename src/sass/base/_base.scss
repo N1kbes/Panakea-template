@@ -1,26 +1,27 @@
-.container-fluid{
-  width: 100%;
+.container-fluid {
+    width: 100%;
 }
 
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  min-width: 960px;  /*пока нет медиа запросов*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    min-width: 960px;
+    /*пока нет медиа запросов*/
 }
 
-.logo{
-  cursor: default;
+.logo {
+    cursor: default;
 }
 
-button{
-  font-family: "RobotoSlabRegular";
-  font-size: 1.125em;
-  line-height: 1.333;
-  cursor: pointer;
-  transition: background-color 0.5s ease;
-  transition: color 0.5s ease;
-  padding: 1.06em 3.75em;
-  border-radius: 1.5em;
-  border: none;
+button {
+    font-family: "RobotoSlabRegular";
+    font-size: 1.125em;
+    line-height: 1.333;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    padding: 1.06em 3.75em;
+    border-radius: 1.5em;
+    border: none;
 }
