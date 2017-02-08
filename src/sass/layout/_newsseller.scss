@@ -1,0 +1,72 @@
+.newsseller {
+    background-image: url('../images/newsseller-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    padding-bottom: 7em;
+
+    h4 {
+        color: $white-color;
+        text-align: center;
+        padding: 3em 0 0.5em;
+    }
+}
+
+.newsseller-group {
+    margin: 0 auto;
+    max-width: 36em;
+    text-align: center;
+}
+
+#subscribe {
+    margin-top: 2.75em;
+}
+
+#subscribe input[name="email"] {
+    font-size: 1.125em;
+    font-family: RobotoSlabRegular;
+    line-height: 1.667;
+    border: 1px solid $white-color;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1.25em;
+    height: 2.5em;
+    padding-left: 2em;
+    padding-right: 5em;
+    outline: none;
+
+    &::-webkit-input-placeholder {
+        color: rgb(243, 244, 246);
+    }
+
+    &::-moz-placeholder {
+        color: rgb(243, 244, 246);
+    }
+
+    &:-ms-input-placeholder {
+        color: rgb(243, 244, 246);
+    }
+
+    &:-moz-placeholder {
+        color: rgb(243, 244, 246);
+    }
+}
+
+#subscribe button[type="submit"] {
+    font-family: "RobotoSlabRegular";
+    font-size: 1.125em;
+    line-height: 1;
+    cursor: pointer;
+    background-color: $white-color;
+    color: #612316;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    padding: 0.85em 3.75em;
+    border-radius: 1.5em;
+    border: none;
+    margin-left: -5em;
+
+    &:hover {
+        background-color: $orange-color;
+        color: $white-color;
+    }
+}
