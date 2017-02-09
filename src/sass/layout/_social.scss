@@ -1,0 +1,39 @@
+.social-sign .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5em 0;
+}
+
+.social-group {
+    width: 48%;
+}
+
+.social-group h4 {
+    color: rgb(25, 27, 41);
+    line-height: 1.6;
+}
+
+.social-group span {
+    color: rgb(0,0,0);
+    display: block;
+    line-height: 1.875;
+}
+
+.social-group .product-specs {
+    padding: 1.5em 0;
+}
+
+.social-group .sign-up {
+    display: block;
+    margin: 1.25em 0;
+    padding: 1.06em 4.75em;
+    color: $white-color;
+
+    &.orange {
+        background-color: $orange-color;
+    }
+
+    &.blue {
+        background-color: rgb(75,78,115);
+    }
+}
