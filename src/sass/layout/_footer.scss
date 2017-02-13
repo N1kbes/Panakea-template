@@ -1,0 +1,42 @@
+footer .container-fluid{
+    background-color: rgb(215, 93, 14);
+}
+
+.footer-menu .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-menu--row{
+  width: 32%;
+  text-align: center;
+  padding: 0 0.5em;
+  margin: 4em 0 5em 0;
+  &:first-child{
+    padding-left: 0;
+  }
+  &:last-child{
+    padding-right: 0;
+  }
+  ul{
+    margin-left: 0;
+    li{
+      text-decoration: none;
+      list-style-type: none;
+      font-family: 'RobotoLight';
+      color: $white-color;
+      font-size: 1.125em;
+      font-weight: 400;
+      line-height: 2em;
+    }
+  }
+}
+
+.footer-bg{
+  min-height: 23em;
+  background-image: url("../images/newsseller-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+}
