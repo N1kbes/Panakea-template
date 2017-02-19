@@ -1,32 +1,105 @@
-header{
-  min-height: 9.1875em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+#menu-header {
+    .container {
+        @include for-phone-only {
+            padding: 0;
+        };
+    }
+}
+.menu-button{
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  background-image: url('../images/menu.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0.5em;
+  top: 0.75em;
+  transition-duration: 0.3s;
+  &:active{
+    transform: scale(1.2);
+  }
+  @include for-tablet-portrait-up{
+    display: none;
+  };
+}
+header {
+    min-height: 9.1875em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @include for-phone-only {
+        flex-direction: column;
+        min-height: inherit;
+    };
+    @include for-desktop-up{
+      flex-direction: row;
+    };
 }
 
-.main-menu nav ul{
-  padding: 0;
+.main-menu {
+    @include for-phone-only {
+        width: 100%;
+        position: absolute;
+        top: 4.5em;
+        background: white;
+        display: none;
+    };
 }
 
-.main-menu nav ul li{
-  display: inline-block;
-  font-family: "RobotoSlabRegular";
-  font-size: 1.125em;
-  color: $dark-color;
-  line-height: 1.333;
-  margin: 0 1.5em;
-  cursor: pointer;
-  transition-duration: 0.05s;
-  &:first-child{
-    margin-left: 0;
-  }
-  &:hover{
-    background-color: $orange-color;
-    border-radius: 1.5em;
-    margin: 0;
-    padding: 1.06em 1.5em;
-    color: white;
-  }
+.main-menu nav ul {
+    padding: 0;
+}
+
+.main-menu nav ul li {
+    display: inline-block;
+    font-family: "RobotoSlabRegular";
+    font-size: 1.125em;
+    color: $dark-color;
+    line-height: 1.333;
+    cursor: pointer;
+    transition-duration: 0.05s;
+
+    &:first-child {
+        margin-left: 0;
+        @include for-tablet-portrait-up{
+          margin: 0.6em 1em;
+        };
+    }
+
+    &:hover {
+        background-color: $orange-color;
+        border-radius: 1.5em;
+        margin: 0;
+        color: white;
+        @include for-phone-only {
+            border-radius: 0;
+            padding: 1em 0.5em;
+        }
+        @include for-tablet-portrait-up{
+          padding: 0.6em 1em;
+        };
+        @include for-desktop-up{
+          padding: 1.06em 1.5em;
+        };
+    }
+
+    @include for-phone-only {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 1em 0.5em;
+        box-sizing: border-box;
+    };
+
+    @include for-tablet-portrait-up{
+      font-size: 0.9em;
+      margin: 0.6em 1em;
+    };
+
+    @include for-desktop-up{
+      font-size: 1.125em;
+      margin: 1.06em 1.5em;
+    };
+
 }

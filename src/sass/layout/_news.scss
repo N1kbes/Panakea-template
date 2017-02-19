@@ -12,6 +12,9 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    @include for-phone-only{
+      flex-direction: column;
+    };
 }
 
 .news-figure {
@@ -24,10 +27,20 @@
     &:last-child {
         margin-right: 0;
     }
+    @include for-phone-only{
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0;
+    };
+
+    @include for-tablet-portrait-up{
+      width: 33%;
+    };
 }
 
 .news-figure img {
     margin-bottom: 1em;
+    width: 100%;
 }
 
 .news-figure button {
@@ -40,6 +53,9 @@
         background-color: $orange-color;
         color: $white-color;
     }
+    @include for-phone-only{
+      margin: 2.5em auto;
+    };
 }
 
 .news-figure span {

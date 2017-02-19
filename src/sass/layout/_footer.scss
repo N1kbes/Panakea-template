@@ -3,10 +3,13 @@ footer .container-fluid{
 }
 
 .footer-menu .container{
-  display: flex;
-  justify-content: space-between;
-}
+  display: none;
 
+  @include for-tablet-portrait-up {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .footer-menu--row{
   width: 32%;

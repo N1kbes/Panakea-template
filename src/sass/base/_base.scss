@@ -6,8 +6,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    min-width: 960px;
-    /*пока нет медиа запросов*/
 }
 
 .logo {
@@ -24,4 +22,13 @@ button {
     padding: 1.06em 3.75em;
     border-radius: 1.5em;
     border: none;
+}
+
+ul{
+  -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+}
+.active{
+  display: block !important;
 }

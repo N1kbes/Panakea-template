@@ -3,16 +3,25 @@
   min-height: 1000px;
   background-size: cover;
   background-position: center;
+  @include for-phone-only{
+    min-height: 500px;
+  };
 }
 
 .main-page-group{
   text-align: center;
   padding-top: 25em;
+  @include for-phone-only{
+    padding-top: 11em;
+  };
 }
 
 .inline-figures{
   display: flex;
   margin-top: 6em;
+  @include for-phone-only{
+    display: none;
+  };
 }
 
 .inline-figures .figure-main{
@@ -30,6 +39,9 @@
   line-height: 3;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
   font-weight: 700;
+  @include for-phone-only{
+    font-size: 1.2em;
+  };
 }
 
 .main-page-group .read-more{
