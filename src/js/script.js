@@ -12,4 +12,17 @@ domReady(function() {
   };
 
   bttn.addEventListener("click", showMenu, false);
+
+  //****  ANIMATIONS  ****
+  //menu bar
+  var menu_items = document.querySelectorAll('.main-menu li');
+
+
+
+  TweenMax.from(menu_items, 1, {
+     y: function(index) {
+      return (index + 1) * 30
+    }
+  });
+
 });
