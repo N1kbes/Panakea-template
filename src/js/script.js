@@ -4,6 +4,7 @@ var domReady = function(callback) {
 
 
 domReady(function() {
+
   var bttn = document.querySelector('.menu-button');
   var menu = document.querySelector('.main-menu');
 
@@ -16,8 +17,6 @@ domReady(function() {
   //****  ANIMATIONS  ****
   //menu bar
   var menu_items = document.querySelectorAll('.main-menu li');
-
-
 
   TweenMax.from(menu_items, 1, {
      y: function(index) {

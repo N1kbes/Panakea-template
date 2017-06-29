@@ -1,5 +1,5 @@
-footer .container-fluid{
-    background-color: rgb(215, 93, 14);
+.footer-menu{
+  background-color: rgb(215, 93, 14);
 }
 
 .footer-menu .container{
@@ -37,9 +37,14 @@ footer .container-fluid{
 }
 
 .footer-bg{
-  min-height: 23em;
+  height: 23em;
   background-image: url("../images/newsseller-bg.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: cover;
+	position: fixed;
+	bottom: 0;
+	z-index: 100;
+	left: 0;
+	right: 0;
 }
